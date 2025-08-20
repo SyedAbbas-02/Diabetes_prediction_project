@@ -32,7 +32,6 @@ A machine learning–based web application to predict **diabetes risk** based on
 Install dependencies
 
 ```cmd
-  pip install keras
   pip install flask
   pip install sklearn
 ```
