@@ -57,18 +57,15 @@ Also provides an **AI chatbot assistant** for interactive guidance.
    ```bash
    git clone https://github.com/SyedAbbas-02/Diabetes_prediction_project.git
    cd Diabetes_prediction_project
-   ```bash
 
 2. Install dependencies
     ```bash
     pip install flask
     pip install scikit-learn
-    ```bash
 
 3. Run the project
     ```bash
     python main.py
-    ```bash
 
 ---
 
@@ -95,20 +92,21 @@ Also provides an **AI chatbot assistant** for interactive guidance.
 
 Diabetes_prediction_project/
 │
-├── diabetes.csv        # Dataset (PIMA Indian Diabetes Dataset)
-├── final2.pkl          # Trained SVM model (used for prediction)
 ├── main.py             # Flask app entry point
 ├── model.ipynb         # Jupyter Notebook for training models
-├── requirements.txt    # Dependencies
-├──README.md            # Project documentation
+├── final2.pkl          # Trained SVM model (used for prediction)
+├── scaler.pkl          # Saved StandardScaler object used for feature scaling
+├── diabetes.csv        # Dataset (PIMA Indian Diabetes Dataset)
+├── README.md           # Project documentation
 ├── static/             # CSS, images, and other static assets
 ├── templates/          # HTML templates (Home, About, Test, Diet, Expert, Tools, etc.)
-   ├── home.html
-   ├── about.html
-   ├── test.html
-   ├── diet.html
-   ├── expert.html
-   └── tools.html
+   ├── Home.html
+   ├── AboutUs.html
+   ├── Test.html
+   ├── Diet&Exer.html
+   ├── ExpertAdv.html
+   ├── prac.html
+   └── HealthTools.html
 ```
 
 ---
