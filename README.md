@@ -1,44 +1,106 @@
-# Hello! 👋
+# 🩺 Diabetes Prediction Web Application with AI Chatbot  
 
-# 🩺 Diabetes Prediction Web Application
+A machine learning–based web application that predicts **diabetes risk** based on user health data.
+Also provides an **AI chatbot assistant** for interactive guidance.  
 
-A machine learning–based web application to predict **diabetes risk** based on user input such as **glucose level, BMI, and blood pressure**.
+---
 
 ## ✨ Features
-- Predicts diabetes risk using trained ML models
-- Best model: **Random Forest (85% accuracy)**
-- Integrated into a Flask web app
-- Interactive front-end built with HTML/CSS
-- Model serialized with Pickle for deployment
+- Predicts diabetes risk using **Support Vector Machine (SVM) model** (`Final2.pkl`)  
+- Other trained models: **Logistic Regression, Random Forest**  
+- Integrated into a **Flask web app**  
+- Interactive front-end built with **HTML/CSS**  
+- AI Chatbot built with **Voiceflow**, connected via **Replit backend** to **OpenRouter API**  
+- **Health Tools page**: Product buttons redirect users to **Amazon search results** for that product  
+- Model serialized with Pickle for deployment  
+
+---
 
 ## 📊 Dataset
-- **PIMA Indian Diabetes Dataset**
-- Preprocessed & feature tuned for better performance
+- **PIMA Indian Diabetes Dataset (`diabetes.csv`)**  
+- Includes features such as: Glucose, BMI, Blood Pressure, Insulin, Age, Pregnancies, Diabetes Pedigree Function  
+- Data preprocessing performed with **scaling** for better model accuracy  
+
+---
+
+## 🧠 Model Training
+- Trained Models:  
+  - Logistic Regression  
+  - Random Forest  
+  - Support Vector Machine (SVM) ✅  
+
+- **Best Model:**  
+  - **Support Vector Machine (SVM)** achieved the best performance  
+  - Saved as `Final2.pkl` and used in the deployed app  
+
+---
+
+## 💬 AI Chatbot
+- **Frontend:** Integrated in the homepage using **Voiceflow**  
+- **Backend:** Replit server connects the chatbot to the **OpenRouter API**  
+- **Functionality:** Provides answers to user queries related to diabetes, health tips, and lifestyle  
+
+---
 
 ## 🛠️ Technologies Used
-- Python
-- Flask
-- scikit-learn
-- Jupyter Notebook
-- HTML / CSS
-- Pickle
+- **Backend:** Python, Flask  
+- **Frontend:** HTML, CSS  
+- **ML Libraries:** scikit-learn, pickle  
+- **AI Chatbot:** Voiceflow, Replit backend, OpenRouter API  
+- **Development:** Jupyter Notebook  
+
+---
 
 ## 🚀 How to Run
+
 1. Clone this repository  
    ```bash
-   git clone https://github.com/SyedAbbas-02/Diabetes_Prediction_Website.git
+   git clone https://github.com/SyedAbbas-02/Diabetes_prediction_project.git
+   cd Diabetes_prediction_project
 
+2. Install dependencies
+    pip install flask
+    pip install scikit-learn
 
-Install dependencies
+3. Run the project
+    python main.py
 
-```cmd
-  pip install flask
-  pip install sklearn
-```
+---
 
+## 📸 Screenshots
 
-Run the project
+### 🏠 Homepage
+![Homepage](static/image/Homepage.png)
+![Homepage 2](static/image/Homepage2.png)
 
-```cmd
-  python main.py
-```
+### 🤖 AI Chatbot
+![AI Chatbot](static/image/Aichatbot.png)
+
+### 🛠️ Health Tools
+![Health Tools](static/image/healthtools.png)
+
+### 🧾 Diabetes Checkup Form
+![Checkup Page](static/image/checkuppage.png)
+![Checkup Page 2](static/image/checkuppage2.png)
+
+---
+
+## 📂 Project Structure
+
+Diabetes_prediction_project/
+│
+├── static/ # CSS, images, and other static assets
+├── templates/ # HTML templates (Home, About, Test, Diet, Expert, Tools, etc.)
+│ ├── home.html
+│ ├── about.html
+│ ├── test.html
+│ ├── diet.html
+│ ├── expert.html
+│ └── tools.html
+│
+├── diabetes.csv # Dataset (PIMA Indian Diabetes Dataset)
+├── final2.pkl # Trained SVM model (used for prediction)
+├── main.py # Flask app entry point
+├── model.ipynb # Jupyter Notebook for training models
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
