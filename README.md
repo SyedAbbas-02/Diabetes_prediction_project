@@ -51,24 +51,6 @@ Also provides an **AI chatbot assistant** for interactive guidance.
 
 ---
 
-## 🚀 How to Run
-
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/SyedAbbas-02/Diabetes_prediction_project.git
-   cd Diabetes_prediction_project
-
-2. Install dependencies
-    ```bash
-    pip install flask
-    pip install scikit-learn
-
-3. Run the project
-    ```bash
-    python main.py
-
----
-
 ## 📸 Screenshots
 
 1. **Homepage**
@@ -89,24 +71,51 @@ Also provides an **AI chatbot assistant** for interactive guidance.
 
 ## 📂 Project Structure
 ```
-
 Diabetes_prediction_project/
 │
-├── main.py             # Flask app entry point
-├── model.ipynb         # Jupyter Notebook for training models
-├── final2.pkl          # Trained SVM model (used for prediction)
-├── scaler.pkl          # Saved StandardScaler object used for feature scaling
-├── diabetes.csv        # Dataset (PIMA Indian Diabetes Dataset)
-├── README.md           # Project documentation
-├── static/             # CSS, images, and other static assets
-├── templates/          # HTML templates (Home, About, Test, Diet, Expert, Tools, etc.)
-   ├── Home.html
-   ├── AboutUs.html
-   ├── Test.html
-   ├── Diet&Exer.html
-   ├── ExpertAdv.html
-   ├── prac.html
-   └── HealthTools.html
+├── main.py                # Flask app entry point
+├── proj2.ipynb            # Jupyter Notebook for training models
+├── diabetes.csv           # Dataset (PIMA Indian Diabetes Dataset)
+├── Final2.pkl             # SVM model used for prediction
+├── scaler.pkl             # Scaler for preprocessing
+├── templates/             # HTML frontend
+    ├── Home.html          # Homepage with AI chatbot
+    ├── Test.html          
+    ├── AboutUs.html
+    ├── Diet&Exer.html
+    ├── ExpertAdv.html
+    ├── HealthTools.html
+    └── prac.html
+├── static/                # CSS, images, and other static assets
+    ├── Css/
+        ├── index.css
+        ├── aboutus.css
+        ├── test.css
+        └── ...
+    ├── image/
+        ├── logo.png
+        ├── bg.avif
+        ├── Homepage.png
+        └── ...
+└── README.md              # Project documentation
 ```
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/SyedAbbas-02/Diabetes_prediction_project.git
+   cd Diabetes_prediction_project
+
+2. Install dependencies
+    ```bash
+    pip install flask
+    pip install scikit-learn
+
+3. Run the project
+    ```bash
+    python main.py
 
 ---
