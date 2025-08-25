@@ -1,7 +1,6 @@
 # 🩺 Diabetes Prediction Web Application with AI Chatbot  
 
-A machine learning–based web application that predicts **diabetes risk** based on user health data.
-Also provides an **AI chatbot assistant** for interactive guidance.  
+A machine learning–based web application that predicts **diabetes risk** based on user health data & also provides an **AI chatbot assistant** for interactive guidance.  
 
 ---
 
@@ -92,7 +91,7 @@ Diabetes_prediction_project/
         ├── aboutus.css
         ├── test.css
         └── ...
-    ├── image/
+    └── image/
         ├── logo.png
         ├── bg.avif
         ├── Homepage.png
