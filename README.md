@@ -57,50 +57,58 @@ Also provides an **AI chatbot assistant** for interactive guidance.
    ```bash
    git clone https://github.com/SyedAbbas-02/Diabetes_prediction_project.git
    cd Diabetes_prediction_project
+   ```bash
 
 2. Install dependencies
+    ```bash
     pip install flask
     pip install scikit-learn
+    ```bash
 
 3. Run the project
+    ```bash
     python main.py
+    ```bash
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Homepage
-![Homepage](static/image/Homepage.png)
-![Homepage 2](static/image/Homepage2.png)
+1. **Homepage**
+   ![Homepage](static/image/Homepage.png)
+   ![Homepage 2](static/image/Homepage2.png)
 
-### 🤖 AI Chatbot
-![AI Chatbot](static/image/Aichatbot.png)
+2. **🤖 AI Chatbot**
+   ![AI Chatbot](static/image/Aichatbot.png)
 
-### 🛠️ Health Tools
-![Health Tools](static/image/healthtools.png)
+3. **Health Tools**
+   ![Health Tools](static/image/healthtools.png)
 
-### 🧾 Diabetes Checkup Form
-![Checkup Page](static/image/checkuppage.png)
-![Checkup Page 2](static/image/checkuppage2.png)
+4. **Diabetes Checkup Form**
+   ![Checkup Page](static/image/checkuppage.png)
+   ![Checkup Page 2](static/image/checkuppage2.png)
 
 ---
 
 ## 📂 Project Structure
+```
 
 Diabetes_prediction_project/
 │
-├── static/ # CSS, images, and other static assets
-├── templates/ # HTML templates (Home, About, Test, Diet, Expert, Tools, etc.)
-│ ├── home.html
-│ ├── about.html
-│ ├── test.html
-│ ├── diet.html
-│ ├── expert.html
-│ └── tools.html
-│
-├── diabetes.csv # Dataset (PIMA Indian Diabetes Dataset)
-├── final2.pkl # Trained SVM model (used for prediction)
-├── main.py # Flask app entry point
-├── model.ipynb # Jupyter Notebook for training models
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+├── diabetes.csv        # Dataset (PIMA Indian Diabetes Dataset)
+├── final2.pkl          # Trained SVM model (used for prediction)
+├── main.py             # Flask app entry point
+├── model.ipynb         # Jupyter Notebook for training models
+├── requirements.txt    # Dependencies
+├──README.md            # Project documentation
+├── static/             # CSS, images, and other static assets
+├── templates/          # HTML templates (Home, About, Test, Diet, Expert, Tools, etc.)
+   ├── home.html
+   ├── about.html
+   ├── test.html
+   ├── diet.html
+   ├── expert.html
+   └── tools.html
+```
+
+---
