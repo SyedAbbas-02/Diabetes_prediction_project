@@ -34,6 +34,20 @@ A machine learning–based web application that predicts **diabetes risk** based
 
 ---
 
+## Model Results
+
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 82.5% |
+| Random Forest | 80.5% |
+| SVM (used in the app) | 82.5% |
+
+## Disclaimer
+
+This project is for learning and demonstration. It is not a medical device and its predictions are not medical advice.
+
+---
+
 ## 💬 AI Chatbot
 - **Frontend:** Integrated in the homepage using **Voiceflow**  
 - **Backend:** Replit server connects the chatbot to the **OpenRouter API**  
